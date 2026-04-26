@@ -1,0 +1,15 @@
+{
+	"name": "rishi-17",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "469851f7-8be4-4cda-80c9-7c1feabff7ee",
+		"tenantId": "4653d084-cee2-44e6-b017-268b765c8e36"
+	}
+}
