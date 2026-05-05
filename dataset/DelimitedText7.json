@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "DelimitedText7",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
@@ -18,19 +18,6 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": [
-			{
-				"name": "Name",
-				"type": "String"
-			},
-			{
-				"name": "HEX",
-				"type": "String"
-			},
-			{
-				"name": "RGB",
-				"type": "String"
-			}
-		]
+		"schema": []
 	}
 }
