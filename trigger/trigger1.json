@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "copy",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/csvfiles/industry.csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/fdfd1c0c-89b7-48ab-8dc3-aa6555f453d9/resourceGroups/rishi/providers/Microsoft.Storage/storageAccounts/adls6",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
