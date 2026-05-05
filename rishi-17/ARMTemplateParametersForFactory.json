@@ -10,6 +10,9 @@
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adls6.dfs.core.windows.net/"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/fdfd1c0c-89b7-48ab-8dc3-aa6555f453d9/resourceGroups/rishi/providers/Microsoft.Storage/storageAccounts/adls6"
 		}
 	}
 }
