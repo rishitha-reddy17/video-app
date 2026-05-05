@@ -82,7 +82,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "DelimitedText1",
+						"referenceName": "Binary1",
 						"type": "DatasetReference"
 					},
 					"enableLogging": false,
